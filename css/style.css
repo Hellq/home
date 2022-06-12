@@ -1,0 +1,112 @@
+body {
+    background-color: #146aa5;
+}
+
+div {
+    position: absolute;
+    width: 99vw;
+    top: 40%;
+    text-align: center;
+    align-content: center;
+    color: #fff;
+    font-size: 144px;
+    opacity: 0;
+}
+
+#t0 {
+	/*Safari 和 Chrome:*/
+	-webkit-animation:fadeInOut 3s ease-in-out;
+    animation:fadeInOut 3s ease-in-out;
+}
+
+#t1 {
+	/*Safari 和 Chrome:*/
+	-webkit-animation:fadeInOut 3s ease-in-out 3s;
+    animation:fadeInOut 3s ease-in-out 3s;
+}
+
+#t2 {
+	/*Safari 和 Chrome:*/
+	-webkit-animation:fadeInOut 3s ease-in-out 6s;
+    animation:fadeInOut 3s ease-in-out 6s;
+}
+
+#t3 {
+	/*Safari 和 Chrome:*/
+	-webkit-animation:fadeInOut 3s ease-in-out 9s;
+    animation:fadeInOut 3s ease-in-out 9s;
+}
+
+#t4 {
+    opacity: 1;
+	/*Safari 和 Chrome:*/
+	-webkit-animation:fadeInOutFinal 15s ease-in-out;
+    animation:fadeInOutFinal 15s ease-in-out;
+}
+
+a {
+    text-decoration: none;
+    color: #aff;
+}
+
+a:visited {
+    color: #aff;
+}
+
+@keyframes fadeIn
+{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+/*Safari 和 Chrome:*/
+@-webkit-keyframes fadeIn
+{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@keyframes fadeOut
+{
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+/*Safari 和 Chrome:*/
+@-webkit-keyframes fadeOut
+{
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+@keyframes fadeInOut
+{
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+/*Safari 和 Chrome:*/
+@-webkit-keyframes fadeInOut
+{
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes fadeInOutFinal
+{
+    0% {opacity: 0;}
+    80% {opacity: 0;}
+    90% {opacity: 1;}
+    100% {opacity: 1;}
+}
+
+/*Safari 和 Chrome:*/
+@-webkit-keyframes fadeInOutFinal
+{
+    0% {opacity: 0;}
+    80% {opacity: 0;}
+    90% {opacity: 1;}
+    100% {opacity: 1;}
+}
