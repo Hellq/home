@@ -5,11 +5,11 @@ body {
 div {
     position: absolute;
     width: 99vw;
-    top: 40%;
+    top: 35%;
     text-align: center;
     align-content: center;
     color: #fff;
-    font-size: 144px;
+    font-size: 9rem;
     opacity: 0;
 }
 
@@ -44,7 +44,29 @@ div {
     animation:fadeInOutFinal 15s ease-in-out;
 }
 
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+li p {
+    font-size: 3rem;
+}
+
+li img {
+    height: 1.8rem;
+    width: 1.8rem;
+}
+
 a {
+    font-size: 2rem;
     text-decoration: none;
     color: #aff;
 }
